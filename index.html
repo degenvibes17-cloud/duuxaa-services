@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Duxxaa — AI Agent Deployment Service</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  line-height: 1.65;
+  color: #1a202c;
+  background: #f7fafc;
+  padding: 0;
+}
+.container { max-width: 760px; margin: 0 auto; padding: 48px 24px; }
+.hero {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: white;
+  padding: 64px 24px;
+  text-align: center;
+  border-radius: 0 0 16px 16px;
+}
+.hero h1 { font-size: 36px; line-height: 1.2; margin-bottom: 16px; }
+.hero .sub { font-size: 18px; opacity: 0.85; max-width: 600px; margin: 0 auto; }
+h2 { font-size: 24px; margin: 48px 0 16px; color: #2d3748; }
+h3 { font-size: 18px; margin: 24px 0 12px; color: #2d3748; }
+p { margin-bottom: 16px; }
+ul { margin: 12px 0 24px 24px; }
+ul li { margin-bottom: 8px; }
+table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background: #edf2f7; font-weight: 600; }
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.cta {
+  display: inline-block;
+  background: #3182ce;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 16px 8px 16px 0;
+}
+.cta.secondary { background: #38a169; }
+.bot-list { background: #edf2f7; padding: 16px; border-radius: 6px; }
+.bot-list strong { color: #2c5282; }
+.ps { background: #fffaf0; border-left: 4px solid #ed8936; padding: 16px 20px; margin: 32px 0; border-radius: 4px; }
+footer { text-align: center; padding: 32px 0; color: #718096; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="container" style="padding: 0;">
+    <h1>Your AI agent idea is brilliant.<br>Deployment shouldn't take 3 weeks of DevOps hell.</h1>
+    <p class="sub">I'm Paul (Duzan) — I run a 7-agent autonomous system that trades, writes articles, monitors whales, and posts to social. I deploy Telegram and Discord AI agents that actually ship — not 80%-done GitHub repos.</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <h2>What You Get</h2>
+  <div class="card">
+    <p><strong>One Telegram or Discord bot, end-to-end, working in your hands:</strong></p>
+    <ul>
+      <li>1 core skill (e.g., "respond to user questions with GPT-4-class answers", "post scheduled content", "monitor a URL/feed and alert you")</li>
+      <li>Persistent state (Postgres, SQLite, or simple JSON)</li>
+      <li>Source code, fully yours</li>
+      <li>30-min Loom walkthrough so you can edit it later</li>
+      <li>14 days of post-launch bug fixes (free)</li>
+    </ul>
+    <p><strong>Starting at $250</strong> for a basic bot. Most jobs land between $400–$900.</p>
+  </div>
+
+  <h2>What's NOT Included</h2>
+  <ul>
+    <li>LLM API costs (you pay OpenAI/MiniMax/Anthropic directly)</li>
+    <li>Long-term hosting beyond 30 days (you can run on a $5 VPS, or I'll set up Hetzner/Oracle for $50 extra)</li>
+    <li>Complex multi-agent orchestration (separate quote)</li>
+  </ul>
+
+  <h2>Proof</h2>
+  <p>I run 7 agents myself. Live demos:</p>
+  <div class="bot-list">
+    <p><strong>@ScriblastBot</strong> (Telegram) — content writer with Telegram Stars monetization</p>
+    <p><strong>@ChronosWhales</strong> (Telegram channel) — crypto whale alert bot, posting since June</p>
+    <p><strong>@LuckyShopperBot</strong> (Telegram) — affiliate product recommender</p>
+    <p>Plus 3 internal agents (scanner, executor, learning loop) running 24/7</p>
+  </div>
+
+  <h2>Who This Is For</h2>
+  <p>✅ You've got an agent idea (chatbot, content bot, monitoring bot, lead gen)<br>
+  ✅ You're tired of wrestling with Docker, environment vars, and "works on my machine"<br>
+  ✅ You want someone to ship the MVP in 2–5 days while you focus on the business side<br>
+  ✅ You can pay a $250+ deposit before I start</p>
+  <p>❌ If you need enterprise-scale, custom training, or VC-funded engineering — find a real agency.</p>
+
+  <h2>Process (7 Days)</h2>
+  <p><strong>Day 1–2: Scope call (free, 30 min)</strong> — We hop on a call. What does the bot do? Who's the user? What does success look like?</p>
+  <p><strong>Day 3–5: Build</strong> — I write the code, test it, deploy to staging, send you the link.</p>
+  <p><strong>Day 6: Review</strong> — You test. Tell me what sucks. I fix it.</p>
+  <p><strong>Day 7: Handoff</strong> — Source code, Loom walkthrough, post-launch bug-fix window starts.</p>
+
+  <h2>Pricing</h2>
+  <table>
+    <thead>
+      <tr><th>Tier</th><th>Price</th><th>Includes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Starter</strong></td><td>$250</td><td>1 bot, 1 skill, JSON storage, Loom handoff</td></tr>
+      <tr><td><strong>Standard</strong></td><td>$500</td><td>1 bot, 2 skills, SQLite/Postgres, 30-day hosting</td></tr>
+      <tr><td><strong>Pro</strong></td><td>$900</td><td>1 bot, 3+ skills, persistent DB, multi-platform, 30-day hosting</td></tr>
+    </tbody>
+  </table>
+  <p><em>Add-ons: extra skills $150 each, custom integrations $200+, voice/TTS $100.</em></p>
+
+  <h2>Why Me, Specifically</h2>
+  <ul>
+    <li>I've done this for myself. Not theory. My bots run 24/7 on a $7 VPS.</li>
+    <li>I work in <strong>MiniMax M3, GPT-4, Claude, DeepSeek</strong> — I'll recommend the cheapest one that fits your use case.</li>
+    <li>I'm a small operator. You get me, not a project manager. Direct Telegram/email.</li>
+    <li>I won't take your money if the idea doesn't work. We figure that out on the call.</li>
+  </ul>
+
+  <h2>How to Start</h2>
+  <a class="cta" href="https://t.me/Duxxaa">📩 Telegram: @Duxxaa</a>
+  <a class="cta secondary" href="#">🌐 Book a free scope call</a>
+  <p style="margin-top: 16px;">I take <strong>3 clients per month max</strong> so I can actually deliver.</p>
+
+  <div class="ps">
+    <strong>P.S.</strong> — I also wrote a free 50-page guide on building your own AI side hustles, including the exact agent architecture I use: <a href="#">[link to your Gumroad book]</a>. Read it before our call and we'll skip the basics.
+  </div>
+
+  <footer>
+    © 2026 Duxxaa · Sovereign AI Agent Deployment
+  </footer>
+
+</div>
+
+</body>
+</html>
